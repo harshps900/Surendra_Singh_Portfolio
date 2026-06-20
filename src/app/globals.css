@@ -17,6 +17,7 @@
   html {
     scroll-behavior: smooth;
     height: 100%;
+    overflow-x: hidden;
   }
 
   body {
@@ -37,6 +38,9 @@
 }
 
 /* Custom timeline properties that require exact coordinates during transitions */
+.timeline-dot {
+  transform: translate(-50%, -50%);
+}
 .timeline-dot-active {
   border-color: #c5a880 !important;
   box-shadow: 0 0 15px rgba(197, 168, 128, 0.6);

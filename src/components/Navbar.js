@@ -95,12 +95,12 @@ export default function Navbar() {
               {item.label}
             </span>
           ))}
-          <button 
+          {/* <button 
             onClick={() => handleLinkClick("contact")}
             className="ml-2 px-6 py-2 bg-[#856424] hover:bg-[#6e521d] text-white text-[0.8rem] font-bold uppercase tracking-wider rounded transition-all duration-300 cursor-pointer shadow-[0_2px_10px_rgba(133,100,36,0.15)]"
           >
             INQUIRE
-          </button>
+          </button> */}
         </div>
 
         {/* Mobile Toggle Button */}
@@ -113,8 +113,8 @@ export default function Navbar() {
         </button>
 
         {/* Mobile Navigation Panel */}
-        <div className={`absolute top-full left-0 w-full h-[calc(100vh-100%)] bg-white/98 backdrop-blur-xl p-12 flex flex-col gap-6 items-center shadow-[-10px_20px_40px_rgba(0,0,0,0.03)] lg:hidden transition-transform duration-400 ease-[cubic-bezier(0.16,1,0.3,1)] ${
-          isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
+        <div className={`absolute top-full left-0 w-full h-[calc(100vh-100%)] bg-white/98 backdrop-blur-xl p-12 flex flex-col gap-6 items-center shadow-[-10px_20px_40px_rgba(0,0,0,0.03)] lg:hidden transition-all duration-400 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+          isMobileMenuOpen ? "translate-x-0 opacity-100 visible" : "translate-x-full opacity-0 invisible"
         }`}>
           {navItems.map((item) => (
             <span 
@@ -127,12 +127,12 @@ export default function Navbar() {
               {item.label}
             </span>
           ))}
-          <button 
+          {/* <button 
             onClick={() => handleLinkClick("contact")}
             className="mt-4 px-8 py-3 bg-[#856424] text-white text-[0.9rem] font-bold uppercase tracking-wider rounded w-full max-w-[240px] cursor-pointer text-center"
           >
             INQUIRE
-          </button>
+          </button> */}
         </div>
       </div>
     </nav>

@@ -92,7 +92,7 @@ export default function Hero({ isLoading }) {
   return (
     <div ref={containerRef} id="hero" className="relative min-h-[calc(100vh-85px)] flex items-center bg-cover bg-center overflow-hidden" style={{ backgroundImage: "url('/images/hotel_lobby_bg.png')" }}>
       {/* Light gradient overlay to ensure readability */}
-      <div className="absolute inset-0 bg-gradient-to-r from-white via-white/95 via-45% to-white/10 lg:to-transparent z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-white via-white/35 via-40% to-white/25 lg:to-transparent z-0"></div>
 
       <div className="max-w-[1200px] mx-auto px-6 w-full py-20 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-[1.25fr_0.75fr] gap-12 items-center">
@@ -123,7 +123,7 @@ export default function Hero({ isLoading }) {
               </a>
               <button 
                 onClick={handleScrollToContact} 
-                className="px-8 py-3.5 bg-transparent hover:bg-[#856424]/5 border border-[#856424] text-[#856424] text-[0.8rem] font-bold uppercase tracking-wider rounded flex items-center justify-center gap-2 cursor-pointer transition-all duration-300"
+                className="px-8 py-3.5 bg-transparent hover:bg-[#856424] hover:text-white border border-[#856424] text-[#856424] text-[0.8rem] font-bold uppercase tracking-wider rounded flex items-center justify-center gap-2 cursor-pointer transition-all duration-300"
               >
                 GET IN TOUCH <ArrowRight size={16} />
               </button>

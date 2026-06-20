@@ -154,7 +154,7 @@ export default function Journey() {
               }`}
             >
               {/* Connector Dot */}
-              <div className={`timeline-dot absolute top-10 w-5 h-5 rounded-full bg-white border-4 border-brand-blue -translate-x-1/2 z-10 transition-all duration-300 ${
+              <div className={`timeline-dot absolute top-10 w-5 h-5 rounded-full bg-white border-4 border-brand-blue z-10 transition-all duration-300 ${
                 hotel.side === "left" 
                   ? "left-[20px] md:left-full" 
                   : "left-[20px] md:left-0"
