@@ -1,0 +1,27 @@
+{
+  "name": "surendra-singh-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.1",
+    "autoprefixer": "^10.5.0",
+    "gsap": "^3.12.5",
+    "lucide-react": "^0.468.0",
+    "next": "latest",
+    "postcss": "^8.5.15",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "^4.3.1",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-next": "latest"
+  }
+}
